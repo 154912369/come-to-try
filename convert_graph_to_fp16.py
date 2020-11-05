@@ -1,4 +1,3 @@
-convert_graph_to_fp16(model_path, save_path, name, as_text=as_text, target_type=target_type, input_name=input_name, output_names=output_names)import tensorflow as tf
 from tensorflow.core.framework import types_pb2, graph_pb2, attr_value_pb2
 from tensorflow.tools.graph_transforms import TransformGraph
 from google.protobuf import text_format
